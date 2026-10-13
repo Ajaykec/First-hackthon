@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Library Desk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside>
+    <h1>Library Desk</h1>
+    <nav id="nav">
+      <button data-tab="dashboard">Today</button>
+      <button data-tab="books">Books</button>
+      <button data-tab="members">Members</button>
+      <button data-tab="borrowings">Loans</button>
+      <button data-tab="reservations">Reservations</button>
+      <button data-tab="fines">Fines</button>
+    </nav>
+  </aside>
+  <main id="view" aria-live="polite"></main>
+  <dialog id="dlg"></dialog>
+  <div id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
