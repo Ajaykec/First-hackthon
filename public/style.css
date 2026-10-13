@@ -46,7 +46,7 @@ h3 { font: 700 20px Georgia, serif; margin: 26px 0 10px; }
 dialog { border: 0; border-radius: 10px; padding: 24px; width: min(440px, 92vw); box-shadow: 0 20px 60px rgba(20, 30, 60, .35); }
 dialog::backdrop { background: rgba(20, 28, 50, .5); }
 dialog h3 { margin-top: 0; }
-dialog label { display: block; margin-bottom: 12px; font-weight: 600; font-size: 14px; }
+dialog label { display: block; margin-bottom: 12px; font-weight: 700; font-size: 14px; }
 dialog input, dialog select { display: block; width: 100%; margin-top: 4px; font-weight: 400; }
 dialog select[multiple] { height: 110px; }
 .row { display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px; }
